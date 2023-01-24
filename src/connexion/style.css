@@ -1,0 +1,53 @@
+.log{
+    background-color: rgb(7, 11, 68);
+    padding: 30px;
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+    color:blue;
+}
+.base{
+    width: 440px;
+    height: 340px;
+    background: rgb(83, 70, 117);
+    color: linear-gradient(to right, #ab1dcf, #f80759);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box ;
+    padding: 50px 50px;
+    border-radius: 10%;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.bbb{
+    color: white;
+    text-align: center;
+}
+.avatar{
+    width: 200px;
+    height: 100px;
+}
+.submit{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 38px;
+    background: linear-gradient(to right, #ab1dcf, #f80759);
+    box-shadow: rgba(0, 0, 0, 0.3) 8px 15px 38px, rgba(0, 0, 0, 0.22) px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+a{
+    color:  #f80759;
+}
+label{
+    font-size: 16px;
+}
